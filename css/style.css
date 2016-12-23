@@ -1,0 +1,44 @@
+body,html,.container-fluid,.row {
+	height: 100%;
+}
+
+.sidebar {
+	background-color: #05265b;
+	height: 100%;
+	min-height: 100%;
+	margin-left: 0px;
+	color: white;
+}
+
+.nav-top {
+	background-color: rgba(206,206,206,0.2);
+	height: auto;
+	padding-right: 10px;
+	overflow: auto;
+}
+
+.nav-muted,.nav-pills>li>a {
+	color: #bfbfbf;
+}
+
+.profile-img {
+	width: 50%;
+	max-width: 50%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.content-half {
+	height: 50%;
+}
+
+.content-half img {
+    height: 300px;
+    width: auto;
+}
+
+.content {
+	max-height: 100%;
+}
