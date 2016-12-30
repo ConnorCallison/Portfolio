@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<title>Connor Callison's Portfolio</title>
 		<meta charset="utf-8">
@@ -10,7 +10,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -29,60 +29,56 @@
 						</ul>
 					</div>
 				</div>
-				<main>
+				<main id="projects-area">
 					<div class="col-md-9 projects-content">
 						<h2>Projects</h2>
 						<hr>
 						<div class="row content-half">
-							<section>
-								<div class="col-md-6">
-									<h3>3D Printer Builds</h3>
-									<img src="img/printer.jpg" class="img-responsive img-rounded" alt="3D Printer Image">
-									<hr>
-									<!-- Trigger the modal with a button -->
-									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#PrinterModal">More Info</button>
-									<!-- Modal -->
-									<div id="PrinterModal" class="modal fade" role="dialog">
-										<div class="modal-dialog">
-										<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title">Building 3D Printers</h4>
-												</div>
-												<div class="modal-body">
-													<p>While in High School I spent my woodshop class researching 3D printing, and eventually was tasked with improving the 3D printer from a kit that my techer had purchased. I quickly completed that and moved on to building my own 3D printer from scratch. I used an open source design (Prusa i3) and built my machine using our woodshop's CNC machine and other tools. This intereset eventually evolved into a business model that I won our local entrepenuership contest with.</p>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												</div>
+							<section class="col-md-6">
+								<h3>3D Printer Builds</h3>
+								<img src="img/printer.jpg" class="img-responsive img-rounded" alt="3D Printer Image">
+								<hr>
+								<!-- Trigger the modal with a button -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#PrinterModal">More Info</button>
+								<!-- Modal -->
+								<div id="PrinterModal" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+									<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Building 3D Printers</h4>
+											</div>
+											<div class="modal-body">
+												<p>While in High School I spent my woodshop class researching 3D printing, and eventually was tasked with improving the 3D printer from a kit that my techer had purchased. I quickly completed that and moved on to building my own 3D printer from scratch. I used an open source design (Prusa i3) and built my machine using our woodshop's CNC machine and other tools. This intereset eventually evolved into a business model that I won our local entrepenuership contest with.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</section>
-							<section>
-								<div class="col-md-6">
-									<h3>Transit Analytics Software</h3>
-									<img src="img/livemap.png" class="img-responsive img-rounded" alt="Transit Software Screenshot">
-									<hr>
-									<!-- Trigger the modal with a button -->
-									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TransitModal">More Info</button>
-									<!-- Modal -->
-									<div id="TransitModal" class="modal fade" role="dialog">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title">Building 3D Printers</h4>
-												</div>
-												<div class="modal-body">
-													<p>While in college I have developed a transit analytics web application that allows transit companies to evaluate the on time performance of their services. This project has been useful in learning practical applications of SQL, Python, JavaScript, HTML, and CSS.</p>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												</div>
+							<section class="col-md-6">
+								<h3>Transit Analytics Software</h3>
+								<img src="img/livemap.png" class="img-responsive img-rounded" alt="Transit Software Screenshot">
+								<hr>
+								<!-- Trigger the modal with a button -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TransitModal">More Info</button>
+								<!-- Modal -->
+								<div id="TransitModal" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Building 3D Printers</h4>
+											</div>
+											<div class="modal-body">
+												<p>While in college I have developed a transit analytics web application that allows transit companies to evaluate the on time performance of their services. This project has been useful in learning practical applications of SQL, Python, JavaScript, HTML, and CSS.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
@@ -90,71 +86,67 @@
 							</section>
 						</div>
 						<div class="row content-half">
-							<section>
-								<div class="col-md-6">
-									<h3>The Humboldt Challenge</h3>
-									<img src="img/humb_chal.png" class="img-responsive img-rounded" alt="Website Screenshot">
-									<hr>
-									<!-- Trigger the modal with a button -->
-									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ThcModal">More Info</button>
-									<!-- Modal -->
-									<div id="ThcModal" class="modal fade" role="dialog">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title">Building 3D Printers</h4>
-												</div>
-												<div class="modal-body">
-													<p>The linked article is a great explanation of The Humboldt Challenge</p>
-													<a href="http://kymkemp.com/2016/02/07/for-love-not-money-the-humboldt-challenge/">Article link</a>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												</div>
+							<section class="col-md-6">
+								<h3>The Humboldt Challenge</h3>
+								<img src="img/humb_chal.png" class="img-responsive img-rounded" alt="Website Screenshot">
+								<hr>
+								<!-- Trigger the modal with a button -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ThcModal">More Info</button>
+								<!-- Modal -->
+								<div id="ThcModal" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Building 3D Printers</h4>
+											</div>
+											<div class="modal-body">
+												<p>The linked article is a great explanation of The Humboldt Challenge</p>
+												<a href="http://kymkemp.com/2016/02/07/for-love-not-money-the-humboldt-challenge/">Article link</a>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</section>
-							<section>
-								<div class="col-md-6">
-									<h3>Photo / Video</h3>
-									<img src="img/centerville.jpg" class="img-responsive img-rounded" alt="Image of sunset">
-									<hr>
-									<!-- Trigger the modal with a button -->
-									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#SomethingModal">More Info</button>
+							<section class="col-md-6">
+								<h3>Photo / Video</h3>
+								<img src="img/centerville.jpg" class="img-responsive img-rounded" alt="Image of sunset">
+								<hr>
+								<!-- Trigger the modal with a button -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#SomethingModal">More Info</button>
 
-									<!-- Modal -->
-									<div id="SomethingModal" class="modal fade" role="dialog">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title">Personal projects</h4>
-												</div>
-												<div class="modal-body">
-													<p>I have a particular interest in creating content whether it be producing videos / taking photos. Myself, my DJI Phantom 3 and Nikon DSLR go everywhere together. I have included to one of the recent videos I created below.</p>
-													<blockquote class="instagram-media instagram-content" data-instgrm-version="7">
-														<div class="instagram-wrpper">
-															<div class="instagram-outer-div">
-																<div class="instagram-inner-div">
-																</div>
+								<!-- Modal -->
+								<div id="SomethingModal" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">x</button>
+												<h4 class="modal-title">Personal projects</h4>
+											</div>
+											<div class="modal-body">
+												<p>I have a particular interest in creating content whether it be producing videos / taking photos. Myself, my DJI Phantom 3 and Nikon DSLR go everywhere together. I have included to one of the recent videos I created below.</p>
+												<blockquote class="instagram-media instagram-content" data-instgrm-version="7">
+													<div class="instagram-wrpper">
+														<div class="instagram-outer-div">
+															<div class="instagram-inner-div">
 															</div>
-															<p class="instagram-paragraph">
-																<a href="https://www.instagram.com/p/BNDRB2Khcq3/" class="instagram-link" target="_blank">A video posted by Connor Callison (@connor_callison)
-																</a>
-																 on <time class="instagram-time" datetime="2016-11-20T23:50:53+00:00">Nov 20, 2016 at 3:50pm PST</time>
-															</p>
 														</div>
-													</blockquote>
-													<script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												</div>
+														<p class="instagram-paragraph">
+															<a href="https://www.instagram.com/p/BNDRB2Khcq3/" class="instagram-link" target="_blank">A video posted by Connor Callison (@connor_callison)
+															</a>
+															 on <time class="instagram-time" datetime="2016-11-20T23:50:53+00:00">Nov 20, 2016 at 3:50pm PST</time>
+														</p>
+													</div>
+												</blockquote>
+												<script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
